@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "jsx": "preserve",
+    "strict": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/src/*"],
+      "@shared/*": ["electron/shared/*"]
+    },
+    "outDir": "./node_modules/.tsbuild/web"
+  },
+  "include": [
+    "src/src/**/*.ts",
+    "src/src/**/*.vue",
+    "src/src/env.d.ts",
+    "electron/shared/**/*.ts",
+    "electron/preload/**/*.ts"
+  ]
+}
