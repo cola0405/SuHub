@@ -1,5 +1,7 @@
 # SuHub · 素材库
 
+![SuHub](docs/screenshot.png)
+
 自媒体素材本地管理工具（Windows 桌面应用）。只登记路径、不复制不移动，素材文件永远留在原位置。
 
 ## 功能
